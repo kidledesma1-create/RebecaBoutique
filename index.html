@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rebeca Boutique</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background: #ffffff;
+      color: #333;
+    }
+    header {
+      background: #000;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+    .info {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+    .card {
+      border: 1px solid #eee;
+      border-radius: 16px;
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    }
+    .card h3 {
+      margin-bottom: 15px;
+      font-size: 1.2rem;
+    }
+    .card a {
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .card a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 30px 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>REBECA BOUTIQUE</h1>
+    <p>Moda femenina · Elegancia · Tendencia</p>
+  </header>
+
+  <section>
+    <h2 style="text-align:center; margin-bottom:40px;">Colección Destacada</h2>
+    <div class="gallery">
+      <img src="rebeca21.jpg" alt="Look Rebeca Boutique" />
+      <img src="rebeca 31.jpg" alt="Vestido Rebeca Boutique" />
+      <img src="1000198598.jpg" alt="Vestido Azul Rebeca Boutique" />
+      <img src="1000195264.jpg" alt="Conjunto Elegante" />
+      <img src="1000195263.jpg" alt="Blusa Satinada" />
+    </div>
+  </section>
+
+  <section>
+    <h2 style="text-align:center; margin-bottom:40px;">Contacto & Redes</h2>
+    <div class="info">
+      <div class="card">
+        <h3>Instagram</h3>
+        <a href="https://www.instagram.com/rebecaboutiquesp?igsh=dmZyOHRrdGZoc3Vh" target="_blank">@rebecaboutiquesp</a>
+      </div>
+      <div class="card">
+        <h3>Facebook</h3>
+        <a href="https://www.facebook.com/share/1CCbjGhnK7/" target="_blank">Rebeca Boutique</a>
+      </div>
+      <div class="card">
+        <h3>WhatsApp</h3>
+        <a href="https://wa.me/5493644599378" target="_blank">+54 9 364 459‑9378</a>
+      </div>
+      <div class="card">
+        <h3>Grupo WhatsApp</h3>
+        <a href="https://chat.whatsapp.com/GrQDRky2gMfErBMe4Jzuhu" target="_blank">Unirme al grupo</a>
+      </div>
+      <div class="card">
+        <h3>Ubicación</h3>
+        <a href="https://share.google/1iAb9X9BsxG31zf9U" target="_blank">Ver en Google Maps</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Rebeca Boutique · Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
